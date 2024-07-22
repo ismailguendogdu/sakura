@@ -1,0 +1,38 @@
+nav {
+    font-family: 'Raleway';
+    width: 100%;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    >img {
+        width: 64px;
+        height: 64px;
+    }
+    >div {
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        >a {
+            &:hover {
+                color: red;
+            }
+        }
+        
+    }
+}
+
+.phone_btn {
+    display: flex;
+    align-items: center;
+    >img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
